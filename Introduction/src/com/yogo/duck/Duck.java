@@ -1,25 +1,8 @@
 package com.yogo.duck;
 
 public abstract class Duck {
-	private FlyBehaviour flyBehaviour;
-	private QuackBehaviour quackBehaviour;
-
-	
-	public QuackBehaviour getQuackBehaviour() {
-		return quackBehaviour;
-	}
-
-	public void setQuackBehaviour(QuackBehaviour quackBehaviour) {
-		this.quackBehaviour = quackBehaviour;
-	}
-
-	public FlyBehaviour getFlyBehaviour() {
-		return flyBehaviour;
-	}
-
-	public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
-		this.flyBehaviour = flyBehaviour;
-	}
+	 FlyBehaviour flyBehaviour;
+	 QuackBehaviour quackBehaviour;
 
 	public void swim() {
 		System.out.println("Swimming");
